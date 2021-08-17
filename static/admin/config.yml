@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: melvolio01/gatsby-blog
+  branch: main
 
 media_folder: content/assets
 public_folder: ../assets
