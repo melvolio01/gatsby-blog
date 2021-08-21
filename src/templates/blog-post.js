@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Bio from "../components/bio"
+import Button from "../components/button"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
@@ -62,6 +63,9 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        <Link to="/">
+          <Button marginTop="85px">Go Home</Button>
+        </Link>
       </Layout>
     )
   }
